@@ -1,0 +1,26 @@
+# 바이트코드 파일 무시
+*.pyc
+*.pyo
+*.pyd
+*.npy
+*.data
+*.idx
+*.TextGrid
+*.wav
+# CPython 가비지 컬렉션 리포지토리
+__pycache__/
+
+# 테스트 파일
+*.pytest_cache/
+
+# Jupyter 노트북
+.ipynb_checkpoints
+
+# 가상 환경
+venv/
+env/
+
+# PyInstaller
+build/
+dist/
+*.spec
